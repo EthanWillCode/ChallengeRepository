@@ -1,5 +1,5 @@
 function triArea(base, height) {
-	return (Math.abs(base)*Math.abs(height))/2;
+	return (Math.abs(base * height))/2;
 }
 
 //should return 3
