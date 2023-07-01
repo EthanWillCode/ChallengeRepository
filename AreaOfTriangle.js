@@ -1,5 +1,5 @@
 function triArea(base, height) {
-	return (base*height)/2;
+	return (Math.abs(base)*Math.abs(height))/2;
 }
 
 //should return 3
@@ -14,8 +14,12 @@ let test3 = triArea(4,4);
 //should return 48
 let test4 = triArea(8,12);
 
+//should return 48
+let test5 = triArea(-8,12);
+
 
 console.log(test1)
 console.log(test2)
 console.log(test3)
 console.log(test4)
+console.log(test5)
