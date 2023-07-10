@@ -3,10 +3,10 @@
 //For example: if the input string is "Hello World and Coders",
 //then your program should return the string sredoC dna dlroW olleH.
 
-function firstReverse(str) { 
+function firstReverse(str) {
     let arr = str.split("");
     let newArr = [];
-    for(let i = arr.length-1; arr > 0; i--){
+    for(let i = arr.length-1; i >= 0; i--){
         newArr.push(arr[i]);
     }
     return newArr.toString();
